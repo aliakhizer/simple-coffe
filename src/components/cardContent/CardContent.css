@@ -1,7 +1,3 @@
-.card img {
-  height: 300px;
-  width: 300px;
-}
 .card__info--detail {
   display: flex;
   justify-content: space-between;
@@ -11,7 +7,15 @@
   display: flex;
   border: 2px solid green;
 }
-.card__img img {
-  width: 100px;
-  height: 100px;
+.card .card__img {
+  min-width: 300px;
+  border-radius: 20px;
+  margin-bottom: 10px;
+}
+
+@media screen and (min-width: 900px) {
+  .card__info--detail {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
 }

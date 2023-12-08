@@ -1,23 +1,30 @@
 import "./CardContent.css";
 
 const CardContent = ({ product }) => {
-  console.log(product)
+  console.log(product);
   return (
+    <>
     <div className="card">
-      <img className="card__img" src="/assets/bg-cafe.jpg" alt="cafe-image" />
+
+      <img className="card__img" src={product.image} alt="cafe-image" />
 
       <div className="card__info">
         <div className="card__info--detail">
-          <h3 className="card__title">cappucino</h3>
-          <span className="card__price">5.20</span>
+          <h3 className="card__title">{product.name}</h3>
+          <span className="card__price">{product.price}</span>
         </div>
         <div className="card__rating">
-          <img className="card__img" src="/assets/Star.svg" alt="cafe-image" />
+          <img
+            className="rating__img"
+            src="/assets/Star_fill.svg"
+            alt="cafe-image"
+            />
 
-          <div className="rating-text">4.7</div>
+          <div className="rating-text">{product.rating}</div>
         </div>
       </div>
     </div>
+            </>
   );
 };
 export default CardContent;

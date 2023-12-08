@@ -30,13 +30,13 @@ const Content = () => {
       <HeaderContent />
 
       {/* main section */}
-      <section className="container__section">
-        <div>
+      <div className="container__section">
+        
           {products.map((product) => {
             return <CardContent product={product} />;
           })}
-        </div>
-      </section>
+      
+      </div>
     </main>
   );
 };

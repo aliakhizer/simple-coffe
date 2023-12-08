@@ -10,5 +10,9 @@
 }
 .container__section {
   margin-top: 30px;
-  border: 2px solid red;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  row-gap: 40px;
+  column-gap: 20px;
 }
