@@ -1,0 +1,14 @@
+.container {
+  color: aliceblue;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--secondary-color);
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.container__section {
+  margin-top: 30px;
+  border: 2px solid red;
+}

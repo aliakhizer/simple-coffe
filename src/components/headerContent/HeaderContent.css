@@ -1,0 +1,22 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  padding-top: 90px;
+}
+.header__title {
+  text-transform: capitalize;
+}
+.header__subtitle {
+  color: var(--tertiary-color);
+  width: 45ch;
+  font-size: clamp(1rem, 2vw, 1.5rem);
+  text-align: center;
+}
+.headerImage {
+  position: absolute;
+  right: 280px;
+  margin-bottom: 400px;
+}

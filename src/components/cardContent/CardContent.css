@@ -1,0 +1,17 @@
+.card img {
+  height: 300px;
+  width: 300px;
+}
+.card__info--detail {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+.card__rating {
+  display: flex;
+  border: 2px solid green;
+}
+.card__img img {
+  width: 100px;
+  height: 100px;
+}
