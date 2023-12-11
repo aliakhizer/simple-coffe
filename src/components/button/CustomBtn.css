@@ -1,0 +1,38 @@
+.header__buttons {
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: flex;
+  gap: 10px;
+  padding-top: 20px;
+}
+
+.bg-grey {
+  background-color: var(--tertiary-color);
+  padding: 10px;
+  border-radius: 5px;
+  outline: none;
+  text-transform: capitalize;
+  color: aliceblue;
+  border: none;
+  font-weight: bold;
+}
+.bg-transparent {
+  background-color: transparent;
+  text-transform: capitalize;
+  border: none;
+  color: aliceblue;
+  font-weight: bold;
+  border-radius: 5px;
+}
+.bg-grey:hover,
+.bg-grey:focus {
+  background-color: black;
+}
+
+.bg-transparent:hover,
+.bg-transparent:focus {
+  color: white;
+  background-color: var(--tertiary-color);
+}
