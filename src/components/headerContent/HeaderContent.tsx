@@ -4,7 +4,6 @@ import "./HeaderContent.css";
 const HeaderContent = () => {
   return (
     <>
-      <img className="headerImage" src="/assets/vector.svg" alt="" />
       <header className="header">
         <h1 className="header__title">Our Collection</h1>
         <p className="header__subtitle">

@@ -25,7 +25,7 @@ const Content = () => {
   }, []);
 
   return (
-    <main className="container">
+    <main className="container ">
       {/* header */}
       <HeaderContent />
 
